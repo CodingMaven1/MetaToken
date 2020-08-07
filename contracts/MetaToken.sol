@@ -5,6 +5,6 @@ contract MetaToken {
     uint public totalSupply;
 
     constructor() public{
-        totalSupply = 100000;
+        totalSupply = 1000000;
     }
 }

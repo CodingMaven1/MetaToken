@@ -23,12 +23,12 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"constant\":true,\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/codingmaven/Documents/metatoken/contracts/MetaToken.sol\":\"MetaToken\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/codingmaven/Documents/metatoken/contracts/MetaToken.sol\":{\"keccak256\":\"0x29c82817de4d3c765f1c629987676ee6b5b0bdde960c3360e2f8def4e530a81c\",\"urls\":[\"bzz-raw://12549bd54b979f8892486579f638f54895be9716c699ccebd58fd3126d61f923\",\"dweb:/ipfs/QmcDmijJrrticSzVSumRaK1G4wARSwXgUdzkjnA8BGSF1x\"]}},\"version\":1}",
-  "bytecode": "0x6080604052348015600f57600080fd5b50620186a06000819055506084806100286000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806318160ddd14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a72315820af9c7145c9ebd7b42234a626efb7392c96fe6c9166541e340469082ace91683a64736f6c63430005100032",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806318160ddd14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a72315820af9c7145c9ebd7b42234a626efb7392c96fe6c9166541e340469082ace91683a64736f6c63430005100032",
-  "sourceMap": "26:115:0:-;;;82:57;8:9:-1;5:2;;;30:1;27;20:12;5:2;82:57:0;126:6;112:11;:20;;;;26:115;;;;;;",
-  "deployedSourceMap": "26:115:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:115:0;;;;;;;;;;;;;;;;;;;52:23;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "pragma solidity ^0.5.16;\n\ncontract MetaToken {\n\n    uint public totalSupply;\n\n    constructor() public{\n        totalSupply = 100000;\n    }\n}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"constant\":true,\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/codingmaven/Documents/metatoken/contracts/MetaToken.sol\":\"MetaToken\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/codingmaven/Documents/metatoken/contracts/MetaToken.sol\":{\"keccak256\":\"0x76a0da47ac8b16ad972fd1d9b7f91a7a68fbb5ec2c442bd2a33e5b75245e27a7\",\"urls\":[\"bzz-raw://0150810c640b2591597f1321b190f359aae1ce84ebf2bbb1191300b1ed9258f3\",\"dweb:/ipfs/QmecNn3xJoS3Kci3otwkSqnnw7tBjsffLyZCJQuTcKhZXm\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50620f42406000819055506084806100286000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806318160ddd14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a72315820faedc16b36666ce22a7337ae8f7d439d87b0cbea460e76b1d82e955f212df2fa64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806318160ddd14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a72315820faedc16b36666ce22a7337ae8f7d439d87b0cbea460e76b1d82e955f212df2fa64736f6c63430005100032",
+  "sourceMap": "26:116:0:-;;;82:58;8:9:-1;5:2;;;30:1;27;20:12;5:2;82:58:0;126:7;112:11;:21;;;;26:116;;;;;;",
+  "deployedSourceMap": "26:116:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:116:0;;;;;;;;;;;;;;;;;;;52:23;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.16;\n\ncontract MetaToken {\n\n    uint public totalSupply;\n\n    constructor() public{\n        totalSupply = 1000000;\n    }\n}",
   "sourcePath": "/home/codingmaven/Documents/metatoken/contracts/MetaToken.sol",
   "ast": {
     "absolutePath": "/home/codingmaven/Documents/metatoken/contracts/MetaToken.sol",
@@ -94,7 +94,7 @@
             "body": {
               "id": 10,
               "nodeType": "Block",
-              "src": "102:37:0",
+              "src": "102:38:0",
               "statements": [
                 {
                   "expression": {
@@ -121,7 +121,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "hexValue": "313030303030",
+                      "hexValue": "31303030303030",
                       "id": 7,
                       "isConstant": false,
                       "isLValue": false,
@@ -129,15 +129,15 @@
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "126:6:0",
+                      "src": "126:7:0",
                       "subdenomination": null,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_rational_100000_by_1",
-                        "typeString": "int_const 100000"
+                        "typeIdentifier": "t_rational_1000000_by_1",
+                        "typeString": "int_const 1000000"
                       },
-                      "value": "100000"
+                      "value": "1000000"
                     },
-                    "src": "112:20:0",
+                    "src": "112:21:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -145,7 +145,7 @@
                   },
                   "id": 9,
                   "nodeType": "ExpressionStatement",
-                  "src": "112:20:0"
+                  "src": "112:21:0"
                 }
               ]
             },
@@ -169,17 +169,17 @@
               "src": "102:0:0"
             },
             "scope": 12,
-            "src": "82:57:0",
+            "src": "82:58:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 13,
-        "src": "26:115:0"
+        "src": "26:116:0"
       }
     ],
-    "src": "0:141:0"
+    "src": "0:142:0"
   },
   "legacyAST": {
     "absolutePath": "/home/codingmaven/Documents/metatoken/contracts/MetaToken.sol",
@@ -245,7 +245,7 @@
             "body": {
               "id": 10,
               "nodeType": "Block",
-              "src": "102:37:0",
+              "src": "102:38:0",
               "statements": [
                 {
                   "expression": {
@@ -272,7 +272,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "hexValue": "313030303030",
+                      "hexValue": "31303030303030",
                       "id": 7,
                       "isConstant": false,
                       "isLValue": false,
@@ -280,15 +280,15 @@
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "126:6:0",
+                      "src": "126:7:0",
                       "subdenomination": null,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_rational_100000_by_1",
-                        "typeString": "int_const 100000"
+                        "typeIdentifier": "t_rational_1000000_by_1",
+                        "typeString": "int_const 1000000"
                       },
-                      "value": "100000"
+                      "value": "1000000"
                     },
-                    "src": "112:20:0",
+                    "src": "112:21:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -296,7 +296,7 @@
                   },
                   "id": 9,
                   "nodeType": "ExpressionStatement",
-                  "src": "112:20:0"
+                  "src": "112:21:0"
                 }
               ]
             },
@@ -320,17 +320,17 @@
               "src": "102:0:0"
             },
             "scope": 12,
-            "src": "82:57:0",
+            "src": "82:58:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 13,
-        "src": "26:115:0"
+        "src": "26:116:0"
       }
     ],
-    "src": "0:141:0"
+    "src": "0:142:0"
   },
   "compiler": {
     "name": "solc",
@@ -340,12 +340,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xC98c8fc19585E956dFa58dF109aFB87Ed2Cd55BE",
-      "transactionHash": "0x7e08ca21cfe63ab7c4c510832adf00ba48df629d5091f88516d91c1f9d9f66d3"
+      "address": "0x9169c19bde0D21FE6E770E6c47eCD0ADD523c555",
+      "transactionHash": "0x31650d7067b822a2c79b0c2cf68eab8af9c267a36457d16ccf0db1b6cdc80589"
     }
   },
   "schemaVersion": "3.2.0",
-  "updatedAt": "2020-08-06T16:48:50.903Z",
+  "updatedAt": "2020-08-07T06:40:40.661Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
