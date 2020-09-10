@@ -26,10 +26,20 @@ contract MetaToken {
     }
 
     function transfer(address _to, uint _value) public returns (bool success){
-        require(balanceOf[msg.sender] > _value);
+        require(balanceOf[msg.sender] > _value, "Insufficient tokens");
         balanceOf[msg.sender] -= _value;
         balanceOf[_to] += _value;
-        Transfer(msg.sender,_to,_value);
+        emit Transfer(msg.sender,_to,_value);
+        return true;
+    }
+
+    function transferFrom(address _from, address _to, uint _value) public returns (bool success){
+        require(balanceOf[_from] > _value,"Insufficient tokens");
+        require(allowance[_from][_to] > _value, "Insufficient allowance");
+        allowance[_from][_to] -= _value;
+        balanceOf[_from] -= _value;
+        balanceOf[_to] += _value;
+        emit Transfer(_from,_to,_value);
         return true;
     }
 
