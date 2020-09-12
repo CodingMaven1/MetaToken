@@ -35,8 +35,8 @@ contract MetaToken {
 
     function transferFrom(address _from, address _to, uint _value) public returns (bool success){
         require(balanceOf[_from] > _value,"Insufficient tokens");
-        require(allowance[_from][_to] > _value, "Insufficient allowance");
-        allowance[_from][_to] -= _value;
+        require(allowance[_from][msg.sender] > _value, "Insufficient allowance");
+        allowance[_from][msg.sender] -= _value;
         balanceOf[_from] -= _value;
         balanceOf[_to] += _value;
         emit Transfer(_from,_to,_value);
